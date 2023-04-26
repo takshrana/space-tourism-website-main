@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 40px 0 0 0;
+}
+
+.home {
+  background-image: url(assets/home/background-home-desktop.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  width: 830px;
+  height: 96px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(10.7742px);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 38px 0px;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+li a:hover {
+  border-bottom: 3px solid white;
+  color: white;
+}
+
+.align-self-center {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
