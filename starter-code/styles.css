@@ -85,10 +85,35 @@ li a:hover {
 }
 
 .home-para {
-  font-family: 'Barlow';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 32px;
-width: 90%;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  width: 90%;
+}
+
+.exp-circle {
+  padding-top: 20rem;
+  position: relative;
+}
+
+.circle {
+  border-radius: 100%;
+  background-color: #ffffff;
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+}
+
+.explore {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: 2px;
+  position: absolute;
+  padding: 9rem 0 0 5.5rem;
+  text-transform: uppercase;
 }
