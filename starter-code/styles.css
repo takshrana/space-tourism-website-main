@@ -7,6 +7,13 @@ body {
   padding: 40px 0 0 0;
 }
 
+.destination{
+  background-image: url(assets/destination/background-destination-desktop.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .home {
   background-image: url(assets/home/background-home-desktop.jpg);
   height: 100vh;
@@ -29,7 +36,7 @@ li {
   float: left;
 }
 
-li a {
+li a  {
   font-family: "Barlow Condensed";
   font-style: normal;
   font-weight: 400;
@@ -45,7 +52,7 @@ li a {
   margin: 0 20px;
 }
 
-li a:hover {
+li a:hover , .active {
   border-bottom: 3px solid white;
   color: white;
 }
@@ -94,6 +101,7 @@ li a:hover {
   font-size: 18px;
   line-height: 32px;
   width: 90%;
+  color: #D0D6F9;
 }
 
 .exp-circle {
@@ -131,6 +139,72 @@ li a:hover {
 
 .line{
   position: absolute;
+  background-color: #ffffff;
+  height: 1px;
+  width: 105%;
+  z-index: 1;
+}
+
+/* Destination page */
+
+.grey{
+  color: grey;
+}
+
+.destination-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding: 3rem 0 0 5rem;
+  text-align: left;
+}
+
+.destination-title {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+}
+
+.moon{
+  padding: 9rem 0 0 2rem;
+}
+
+.destination-moon {
+  font-family: "Bellefair";
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 172px;
+}
+
+.moon-para {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  width: 90%;
+  color: #D0D6F9;
+}
+
+.destination-info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding: 3rem 0 0 5rem;
+  text-align: left;
+  position: relative;
+}
+
+.destination-line{
+  
   background-color: #ffffff;
   height: 1px;
   width: 105%;
