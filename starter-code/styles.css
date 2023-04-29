@@ -53,6 +53,9 @@ li a:hover {
 .align-self-center {
   display: flex;
   align-items: center;
+}
+
+.nav-row{
   padding-left: 100px;
 }
 
@@ -116,4 +119,20 @@ li a:hover {
   position: absolute;
   padding: 9rem 0 0 5.5rem;
   text-transform: uppercase;
+}
+
+.icon{
+  justify-content: center;
+}
+
+.line-cont{
+  position: relative;
+}
+
+.line{
+  position: absolute;
+  background-color: #ffffff;
+  height: 1px;
+  width: 105%;
+  z-index: 1;
 }
